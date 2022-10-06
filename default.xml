@@ -1,0 +1,10 @@
+<manifest>
+  <remote name="origin" fetch="https://github.com/gamoudic-main" review="https://github.com/gamoudic-main"/>
+  <default remote="origin" revision="main" sync-j="4"/>
+
+  <project name="modules-ppp"          path="ip/ppp"                remote="origin"/>
+  <project name="component-sandbox"    path="comp/sandbox"          revision="main"/>
+  <!--
+  <include name="projectgenerator.xml"/>
+-->
+</manifest>
